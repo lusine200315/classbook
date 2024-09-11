@@ -1,0 +1,122 @@
+{
+  "lessons": [
+    {
+      "id": "101",
+      "title": "Introduction to JavaScript",
+      "ratings": [
+        {
+          "id": "1001",
+          "student": "101",
+          "rate": "8"
+        },
+        {
+          "id": "1726085651583",
+          "student": "102",
+          "rate": "8"
+        }
+      ]
+    },
+    {
+      "id": "102",
+      "title": "Program Structure Part 1",
+      "ratings": [
+        {
+          "id": "1004",
+          "student": "103",
+          "rate": "10"
+        }
+      ]
+    },
+    {
+      "id": "e36c",
+      "title": "loops",
+      "ratings": [
+        {
+          "id": "1726085744627",
+          "student": "101",
+          "rate": "9"
+        },
+        {
+          "id": "1726085748969",
+          "student": "103",
+          "rate": "7"
+        },
+        {
+          "id": "1726085856560",
+          "student": "102",
+          "rate": "4"
+        }
+      ]
+    },
+    {
+      "id": "ff5d",
+      "title": "async",
+      "ratings": [
+        {
+          "id": "1726085643183",
+          "student": "103",
+          "rate": "6"
+        }
+      ]
+    },
+    {
+      "id": "c2cd"
+    },
+    {
+      "id": "380a"
+    },
+    {
+      "id": "039c"
+    },
+    {
+      "id": "a2ce",
+      "title": "class",
+      "ratings": [
+        {
+          "id": "1726085975606",
+          "student": "102",
+          "rate": "2"
+        }
+      ]
+    },
+    {
+      "id": "5ee9",
+      "title": "Next.js",
+      "ratings": [
+        {
+          "id": "1726085993170",
+          "student": "103",
+          "rate": "7"
+        }
+      ]
+    },
+    {
+      "id": "6016",
+      "title": "Api",
+      "ratings": [
+        {
+          "id": "1726085761015",
+          "student": "101",
+          "rate": "10"
+        }
+      ]
+    }
+  ],
+  "students": [
+    {
+      "id": "101",
+      "name": "Tigran",
+      "surname": "Harutyunyan"
+    },
+    {
+      "id": "102",
+      "name": "Anna",
+      "surname": "Melqonyan"
+    },
+    {
+      "id": "103",
+      "name": "Lusine",
+      "surname": "Sahakyan"
+    }
+  ]
+}

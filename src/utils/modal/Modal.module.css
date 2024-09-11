@@ -1,0 +1,100 @@
+/* Overlay to darken the background */
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Modal content container */
+.modalContent {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px; /* Max width for responsive design */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+    animation: fadeIn 0.3s ease; /* Fade-in animation for the modal */
+    text-align: center; /* Center text content */
+}
+
+/* Heading styles */
+.modalContent h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+/* Input field styling */
+.modalContent input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.2s ease;
+}
+
+.modalContent input[type="number"]:focus {
+    border-color: #007bff; /* Blue border on focus */
+    outline: none;
+}
+
+/* Grade level text */
+.modalContent p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+/* Error message styling */
+.modalContent p[style="color: red;"] {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+/* Button styling */
+.modalContent button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.modalContent button:hover {
+    background-color: #0056b3;
+}
+
+/* Cancel button with different background color */
+.modalContent button:last-child {
+    background-color: #6c757d;
+    margin-left: 10px;
+}
+
+.modalContent button:last-child:hover {
+    background-color: #5a6268;
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
